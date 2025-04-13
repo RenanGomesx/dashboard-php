@@ -1,0 +1,20 @@
+# Arquivos de configuração do ambiente
+.env
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDE/editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de dependências e cache
+/vendor/
+/node_modules/
+*.log
+
+# Arquivos de configuração local
+config.local.php 

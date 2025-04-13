@@ -1,0 +1,37 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar-brand h4 {
+  color: #333;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-title {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.chart-container {
+  position: relative;
+  margin: auto;
+  height: 250px;
+}
+
+.small-chart {
+  height: 150px;
+}
+
+/* Cores personalizadas para os gráficos */
+:root {
+  --product-a: #ffc107;
+  --product-b: #dc3545;
+  --product-c: #0d6efd;
+}
